@@ -1,0 +1,29 @@
+body{
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.pagination{
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ li {
+  list-style-type: none;
+}
+.active{
+  
+  background-color: blue;
+  color: #fff;
+  padding: 2px;
+}
+
+.page-Item{
+  /* border: 1px solid gray; */
+  padding: 5px;
+  color: gray;
+
+}
